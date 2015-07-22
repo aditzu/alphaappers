@@ -1,0 +1,166 @@
+
+overlay {
+    background: url("../images/gray_bkg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+}
+
+overlay2 {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-style: solid;
+    border-color: rgba(10, 10, 10, 0.2);
+    border-radius: 1px;
+}
+
+.main {
+
+}
+
+.news-header {
+    text-align: center;
+}
+
+.news-item {
+    border-color: rgba(10, 10, 10, 0.2);
+    border-radius: 8px;
+    background: url("../images/gray_bkg.JPG");
+}
+
+.news-date {
+    background-color: rgba(186, 186, 186, 0.1);
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(66, 139, 202);;
+}
+
+.news-text {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    color: white;
+    padding-right: 2%;
+}
+
+ng-view {
+    border-radius: 4px;
+    background-color: rgba(30, 30, 40, 0.25);
+    display: block;
+}
+
+.logo {
+    display: block;
+    height: 131px;
+    padding: 30px;
+}
+
+.logo-image {
+    height: 100%;
+    display: block;
+    background-image: url("../images/logo_clar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.nav-bar {
+    text-align: center;
+    border-bottom: 1px solid;
+    line-height: 30px;
+}
+
+sep:before {
+    content: " | ";
+}
+
+.navbar-header {
+    float: none;
+    display: inline-block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.navbar-text {
+    transition: font-size 0.3s ease;
+    display: inline-block !important;
+    float: none !important;
+    font-size: medium;
+}
+
+.navbar-text:hover {
+    transition: font-size 0.3s ease;
+    font-size: large;
+
+}
+
+.space {
+    height: 100px;
+}
+
+.tiger-logo {
+    background-image: url("../images/tiger_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    top: 150px;
+}
+
+a {
+    color: rgb(36, 108, 139);
+}
+
+p {
+    color: white !important;
+}
+
+.contacts .field-name {
+    text-align: right;
+    font-weight: bold;
+    color: #5e5e5e !important;
+}
+
+.contacts .field-value {
+    padding-left: 0 !important;
+}
+
+.platform {
+    text-align: center;
+
+}
+
+.platform a {
+    font-weight: bold !important;
+    color: rgb(108, 108, 108) !important;
+    font-size: small;
+}
+
+.projects img {
+    width: 100%;
+}
+
+.team-name {
+    color: white
+}
+
+.team-position {
+    font-weight: bold;
+}
+
+body {
+    color:rgb(107, 107, 107);
+}

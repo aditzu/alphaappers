@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Andrei Oprea -- Co Owner -- andrewoprea2003@yahoo.com
+
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    AngularJS, AngularJS Materials, Normalize.css, jQuery, Modernizr

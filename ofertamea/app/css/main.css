@@ -1,0 +1,72 @@
+body {
+    background: url('../images/background_root.png') no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+.slick-slider {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.market-image {
+    margin:auto;
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+}
+.page-container{
+    overflow: scroll;
+}
+
+.page-image{
+    transition:height 0.5s ease;
+    height: 100%;
+}
+
+.page-image:hover{
+   transition:height 0.5s ease;
+   height: 200%;
+}
+
+.market-image.slick-center{
+}
+
+#catalogsSlider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+
+}
+
+#marketsSlider {
+    width: 90%;
+}
+
+#pagesSlider {
+    width: 98%;
+    height: 95%;
+}
+
+.ui-dialog {
+    z-index: 99999;
+    height: 100% !important;
+    width: 98% !important;
+    top: 0 !important;
+    display: block;
+    background: rgba(113, 113, 113, 0.8);
+}
+
+.ui-dialog-titlebar {
+    background:none;
+    padding: 0!important;
+    border:none;
+    float:right;
+}
+
+.ui-dialog-titlebar-close{
+    z-index:999999999
+}
+
+
+

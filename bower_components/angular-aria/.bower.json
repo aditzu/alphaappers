@@ -1,0 +1,19 @@
+{
+  "name": "angular-aria",
+  "version": "1.3.9-build.3719+sha.a3c3bf3",
+  "main": "./angular-aria.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.3.9-build.3719+sha.a3c3bf3"
+  },
+  "homepage": "https://github.com/angular/bower-angular-aria",
+  "_release": "1.3.9-build.3719+sha.a3c3bf3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.3.9-build.3719+sha.a3c3bf3",
+    "commit": "c002cf3af0025003cb92820249365e3f7f3d7b7c"
+  },
+  "_source": "git://github.com/angular/bower-angular-aria.git",
+  "_target": "1.3.x",
+  "_originalSource": "angular-aria"
+}
